@@ -3,7 +3,7 @@
 
 %% Prepare
 clear; clc; close all;
-dirHome = 'E:\Lorentzian_fitting_250623';
+dirHome = '';
 load(fullfile(dirHome, 'data'),'xdata','ydata')
 pools = {'Water','MT','Amide','2.5 ppm','4.5 ppm','-4.5 ppm'};
 
@@ -45,7 +45,7 @@ legend('Location','SouthEast','FontSize',11)
 title(sprintf('Z-spectrum'),'FontSize',14);
 
 %% Display each pool
-f = figure(2);s
+f = figure(2);
 xfit = linspace(xdata(2),xdata(end-1));
 yfit = fun(coeffs, xfit);
 subplot(2,4,1); hold on;
