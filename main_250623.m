@@ -1,4 +1,4 @@
-% Script for Lorentzian fitting on CEST data acquired using amide phantom
+% MATLAB script for Lorentzian fitting on CEST data acquired using amide phantom
 % Contact : Yujin Jung <emily7962@kaist.ac.kr>
 
 %% Prepare
